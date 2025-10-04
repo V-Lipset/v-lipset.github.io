@@ -1,19 +1,7 @@
 // Put your custom SCSS variables here
-// --- 自定义标题字体大小 ---
 
-// 默认情况下，Doks 的标题大小是基于根字体大小（$font-size-base，通常是 1rem）的倍数。
-// 例如：$h1-font-size: $font-size-base * 2.5;
-
-// 您可以在这里直接设置新的大小。
-// 单位可以是 rem, em, px 等。推荐使用 rem。
-
-// 修改 H1 (页面大标题) 的字体大小
-$h1-font-size: 1.8rem; // 默认可能是 2.5rem，这里把它改小一点
-
-// 修改 H2 (二级标题) 的字体大小
-$h2-font-size: 1.5rem; // 默认可能是 2rem
-
-// 修改 H3 (三级标题，例如您截图中的问题标题) 的字体大小
-$h3-font-size: 1.2rem; // 默认可能是 1.75rem
+$h1-font-size: 1.8rem;
+$h2-font-size: 1.5rem;
+$h3-font-size: 1.2rem;
 
 $primary: #1976d2;
