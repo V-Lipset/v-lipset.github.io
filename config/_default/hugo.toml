@@ -1,5 +1,5 @@
 # 网站的全局标题，会显示在浏览器标签页上。
-title = "AO3 Chinese Script"
+title = "ACS"
 
 # 网站部署后的最终根 URL，用于生成所有资源的绝对链接。
 baseurl = "https://v-lipset.github.io/"
