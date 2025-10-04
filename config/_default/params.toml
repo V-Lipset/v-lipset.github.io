@@ -1,0 +1,219 @@
+# --- Hugo 全局参数 ---
+# 网站标题（可被页面级 title 覆盖）
+title = "AO3 汉化插件"
+# 网站的默认描述
+description = "一个简单的用户脚本，专注于提升 AO3 的阅读体验"
+# 网站的默认分享图片（用于社交媒体分享）
+images = ["cover.png"]
+
+# --- 主要内容区段 ---
+# 定义哪些文件夹下的内容被视为主内容区段，通常用于构建主导航和首页内容。
+mainSections = ["docs"]
+
+# --- 社交媒体链接 ---
+[social]
+  # 你的 Twitter 用户名
+  twitter = "V-Lipset"
+
+# --- Doks 主题核心配置 (@thulite/doks-core) ---
+[doks]
+  # --- 颜色模式 ---
+  # "auto" (自动，跟随系统), "light" (浅色), "dark" (深色)
+  colorMode = "auto"
+  # 是否显示颜色模式切换按钮（仅当 colorMode = "auto" 时有效）
+  colorModeToggler = true
+
+  # --- 导航栏 ---
+  # 是否让导航栏固定在页面顶部
+  navbarSticky = true
+  # 页面容器内容的最大宽度断点，"lg" 是默认值，可选 "sm", "md", "xl", "xxl", "fluid" (流体)
+  containerBreakpoint = "lg"
+
+  ## --- 导航栏按钮 ---
+  # 是否在导航栏显示一个醒目的按钮
+  navBarButton = false
+  # 该按钮的链接地址
+  navBarButtonUrl = "/docs/prologue/introduction/"
+  # 该按钮的显示文本
+  navBarButtonText = "Get started"
+
+  # --- FlexSearch 站内搜索 ---
+  # 是否启用站内搜索功能
+  flexSearch = true
+  # 从搜索索引中排除的页面类型 (例如 ["home", "taxonomy", "term"])
+  searchExclKinds = []
+  # 从搜索索引中排除的内容类型 (例如 ["blog", "docs"])
+  searchExclTypes = []
+  # 在哪些页面上显示搜索框，[] 表示所有页面
+  showSearch = []
+  # 是否只索引摘要而不是全文，可以减小索引文件大小，加快加载速度
+  indexSummary = false
+
+  ## --- 搜索结果 ---
+  # 是否在搜索结果中显示日期
+  showDate = false
+  # 是否在搜索结果中显示摘要
+  showSummary = true
+  # 搜索结果的最大数量，0 表示无限制
+  searchLimit = 99
+
+  # --- 全局通知栏 ---
+  # 是否在网站顶部显示一个全局通知
+  alert = false
+  # 该通知是否允许用户关闭
+  alertDismissable = true
+
+  # --- Bootstrap ---
+  # 是否加载 Bootstrap 的 JavaScript 文件
+  bootstrapJavascript = false
+
+  # --- 导航增强 ---
+  # 在哪些区段的页面上显示右侧的“本页目录”导航
+  sectionNav = ["docs"]
+  # 是否显示“返回顶部”按钮
+  toTopButton = false
+  # 是否显示面包屑导航
+  breadcrumbTrail = false
+  # 是否为页面标题添加可点击的锚点链接
+  headlineHash = true
+  # 当页面滚动时，右侧目录是否高亮当前章节
+  scrollSpy = true
+
+  # --- 多语言 ---
+  # 是否启用多语言模式
+  multilingualMode = false
+  # 在语言切换菜单中，是否显示当前页面尚未翻译的语言选项
+  showMissingLanguages = true
+
+  # --- 文档版本控制 ---
+  # 是否启用文档版本控制功能
+  docsVersioning = false
+  # 当前显示的文档版本号
+  docsVersion = "1.0"
+
+  # --- 用户体验 (UX) ---
+  # 是否在页面顶部显示一个额外的横条（用于放置全局链接或信息）
+  headerBar = false
+  # 是否在背景显示点状网格图案
+  backgroundDots = true
+
+  # --- 首页 ---
+  # 是否在首页的不同区段之间显示页脚
+  sectionFooter = false
+
+  # --- 博客相关 ---
+  # 是否在文章末尾显示相关文章
+  relatedPosts = false
+  # 是否在博客列表页显示文章特色图片
+  imageList = true
+  # 是否在博客文章页显示特色图片
+  imageSingle = true
+
+  # --- 代码仓库集成 ---
+  # 是否显示“在 GitHub 上编辑此页”的链接
+  editPage = false
+  # 是否显示页面的最后修改时间（需要 enableGitInfo = true）
+  lastMod = false
+  # 代码仓库托管平台，可选 "GitHub", "Gitea", "GitLab", "Bitbucket"
+  repoHost = "GitHub"
+  # 你的文档所在的仓库 URL
+  docsRepo = "https://github.com/V-Lipset/v-lipset.github.io"
+  # 你的文档所在的分支
+  docsRepoBranch = "main"
+  # 如果你的文档在仓库的子目录中，请填写此路径
+  docsRepoSubPath = ""
+
+  # Kroki 图表渲染服务的 URL，用于将代码块渲染成图表
+  krokiURL = "https://kroki.io"
+
+  # --- SCSS 颜色自定义 ---
+  # 你可以在这里覆盖主题的默认颜色变量
+  # backGround = "yellowgreen"
+  ## 暗色主题
+  # textDark = "#dee2e6"
+  # accentDark = "#5d2f86"
+  ## 浅色主题
+  # textLight = "#1d2d35"
+  # accentLight = "#8ed6fb"
+
+  # --- 菜单配置 ---
+  # [doks.menu]
+  #   [doks.menu.section]
+  #     # 是否自动生成侧边栏菜单
+  #     auto = true
+  #     # 侧边栏的子菜单是否可折叠
+  #     collapsibleSidebar = true
+
+# --- 调试与构建钩子 ---
+# 配置图片渲染钩子
+[render_hooks.image]
+  # 当遇到无法处理的图片时，构建行为：'ignore' (忽略), 'warning' (警告), 'error' (构建失败)
+  errorLevel = 'ignore'
+
+# 配置链接渲染钩子
+[render_hooks.link]
+  # 当遇到损坏的链接时，构建行为
+  errorLevel = 'ignore'
+  # 是否高亮显示损坏的链接
+  highlightBroken = false
+
+# --- 图像处理模块配置 (@thulite/images) ---
+[thulite_images]
+  [thulite_images.defaults]
+    # 图片解码方式: 'sync' (同步), 'async' (异步), 'auto' (自动)
+    decoding = "async"
+    # 浏览器获取图片的优先级: 'high', 'low', 'auto'
+    fetchpriority = "auto"
+    # 图片加载方式: 'eager' (立即加载), 'lazy' (懒加载)
+    loading = "lazy"
+    # 自动生成的一系列图片宽度，用于响应式图片
+    widths = [480, 576, 768, 1025, 1200, 1440]
+    # 定义图片在不同视口下的尺寸，用于帮助浏览器选择合适的图片
+    sizes = "auto"
+    # 预处理指令，例如 "fill 1600x900"
+    process = ""
+    # 低质量图像占位符 (LQIP) 的处理指令
+    lqip = "16x webp q20"
+
+# --- 内联 SVG 模块配置 (@thulite/inline-svg) ---
+[inline_svg]
+  # SVG 图标集的存放目录
+  iconSetDir = "tabler-icons"
+
+# --- SEO 模块配置 (@thulite/seo) ---
+[seo]
+  [seo.title]
+    # 网站标题和页面标题之间的分隔符
+    separator = " | "
+    # 添加在整个标题末尾的后缀
+    suffix = ""
+  [seo.favicons]
+    # 定义不同尺寸的 favicon
+    sizes = []
+    # 默认的 favicon.ico 文件名
+    icon = "favicon.png"
+    # SVG 格式的 favicon
+    svgIcon = "favicon.svg"
+    # 用于 Safari 标签页的遮罩图标
+    maskIcon = "mask-icon.svg"
+    # 遮罩图标的颜色
+    maskIconColor = "white"
+  [seo.schemas]
+    # 结构化数据类型: 'Organization' (组织) 或 'Person' (个人)
+    type = "Person"
+    # 个人的 Logo 文件
+    logo = "favicon-512x512.png"
+    # 组织或个人的名称
+    name = "V-Lipset"
+    # 相关的社交媒体或其他网站链接
+    sameAs = []
+    # 默认的结构化数据图片
+    images = ["cover.png"]
+    # 哪些区段的内容应被视为 Article 类型
+    article = []
+    # 哪些区段的内容应被视为 NewsArticle 类型
+    newsArticle = []
+    # 哪些区段的内容应被视为 BlogPosting 类型
+    blogPosting = ["blog"]
+    # 哪些区段的内容应被视为 Product 类型
+    product = []

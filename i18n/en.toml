@@ -1,0 +1,60 @@
+[404_text]
+other = "您正在查找的页面不存在或已被迁移。"
+
+[404_title]
+other = "页面未找到 :("
+
+[browse]
+other = "浏览"
+
+[chapter_next]
+other = "下一篇"
+
+[chapter_previous]
+other = "上一篇"
+
+[edit_page]
+other = "Edit this page on"
+
+[get_started]
+other = "开始使用"
+
+[home]
+other = "主页"
+
+[in]
+other = "在"
+
+[by]
+other = "由"
+
+[last_updated]
+other = "最后更新于"
+
+[minute]
+one = "分钟"
+other = "分钟"
+
+[on_this_page]
+other = "目录"
+
+[reading_time]
+other = "预计阅读时间"
+
+[search_loading]
+other = "正在加载搜索索引…"
+
+[search_no_recent]
+other = "最近没有搜索记录"
+
+[search_no_results]
+other = "未找到结果"
+
+[search_placeholder]
+other = ""
+
+[search_title]
+other = "搜索"
+
+[video_unsupported]
+other = "您的浏览器不支持内嵌视频，但别担心，您可以<a href=\"{{ .RelPermalink }}\">下载它</a>，然后用您喜欢的视频播放器观看！"

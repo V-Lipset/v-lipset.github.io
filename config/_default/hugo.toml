@@ -1,0 +1,141 @@
+# 网站的全局标题，会显示在浏览器标签页上。
+title = "AO3 Chinese Script"
+
+# 网站部署后的最终根 URL，用于生成所有资源的绝对链接。
+baseurl = "https://v-lipset.github.io/"
+
+# 禁用别名功能。别名允许一个页面有多个 URL（例如，用于重定向）。
+disableAliases = true
+
+# 禁止 Hugo 在生成的 HTML 中注入 <meta name="generator"> 标签。
+disableHugoGeneratorInject = true
+
+# 如果启用，将禁止 Hugo 生成分类法和术语列表页面（如 /tags/）。
+# disableKinds = ["taxonomy", "term"]
+
+# 启用 Emoji 支持，可以在 Markdown 中使用 :smile: 这样的代码。
+enableEmoji = true
+
+# 禁用 Git 信息集成。如果启用，Hugo 会从 Git 获取页面的最后修改时间等信息。
+enableGitInfo = false
+
+# 允许 Hugo 自动生成 robots.txt 文件，用于指导搜索引擎爬虫。
+enableRobotsTXT = true
+
+# 网站的主要语言代码，用于 HTML 的 lang 属性。
+languageCode = "en-US"
+
+# RSS 订阅源中显示的文章数量上限。
+rssLimit = 10
+
+# Hugo 自动生成文章摘要的长度（单位：单词数），默认是 70。
+summarylength = 50 # 70 (default)
+
+# --- 多语言配置 ---
+# 设置网站的默认内容语言。
+defaultContentLanguage = "en"
+
+# 禁用 Doks 主题中可能内置的德语和荷兰语支持。
+disableLanguages = ["de", "nl"]
+
+# 默认语言的 URL 不会包含语言子目录（例如 /page/ 而不是 /en/page/）。
+defaultContentLanguageInSubdir = false
+
+# 网站的版权信息，通常显示在页脚。
+copyRight = "Copyright © 2025 by Lipset. All rights reserved."
+
+# 启用构建统计，会在项目根目录生成一个 hugo_stats.json 文件。
+[build.buildStats]
+  enable = true
+
+# --- 输出格式配置 ---
+# 定义不同类型页面的输出格式。
+[outputs]
+  # 主页会生成 HTML、RSS 和一个用于站内搜索的 searchIndex 文件。
+  home = ["HTML", "RSS", "searchIndex"]
+  # 区段页（如 /blog/）会生成 HTML、该区段的 RSS 和一个区段站点地图。
+  section = ["HTML", "RSS", "SITEMAP"]
+
+# 定义名为 "searchIndex" 的自定义输出格式。
+[outputFormats.searchIndex]
+  mediaType = "application/json"
+  baseName = "search-index"
+  isPlainText = true
+  notAlternative = true
+
+# 定义名为 "SITEMAP" 的自定义输出格式，用于为每个区段生成站点地图。
+[outputFormats.SITEMAP]
+  mediaType = "application/xml"
+  baseName = "sitemap"
+  isHTML = false
+  isPlainText = true
+  noUgly = true
+  rel  = "sitemap"
+
+# 配置 Hugo 内置的全局站点地图 (sitemap.xml)。
+[sitemap]
+  # 告诉搜索引擎页面内容的建议更新频率。
+  changefreq = "monthly"
+  # 生成的站点地图文件名。
+  filename = "sitemap.xml"
+  # 页面在网站中的相对重要性（0.0 到 1.0）。
+  priority = 0.5
+
+# 配置 Hugo 的缓存。这里是针对 getJSON 函数的缓存设置，-1 表示永久缓存。
+[caches]
+  [caches.getjson]
+    dir = ":cacheDir/:project"
+    maxAge = -1 # "30m"
+
+# 定义网站使用的分类法（Taxonomies）。
+[taxonomies]
+  contributor = "contributors" # 贡献者
+  category = "categories"    # 分类
+  tag = "tags"               # 标签
+
+# 自定义不同内容区段的永久链接（URL）结构。
+#[permalinks]
+  # /content/blog/ 下的文章 URL 格式。:slug 会被替换为文件名。
+#  blog = "/blog/:slug/"
+  # /content/docs/ 下的文章 URL 格式。:sections[1:] 会被替换为子目录路径。
+#  docs = "/docs/:sections[1:]/:slug/"
+
+# 配置 HTML 压缩工具，移除多余的空白字符以减小文件大小。
+[minify.tdewolff.html]
+  keepWhitespace = false
+
+# 配置分页功能，在列表页面每页显示的文章数量。
+[pagination]
+  pagerSize = 10
+
+# 配置 Hugo 的“相关内容”功能。
+[related]
+  # 两篇文章的相似度得分超过 80 才被认为是相关的。
+  threshold = 80
+  # 结果中可以包含比当前文章更新的文章。
+  includeNewer = true
+  # 计算相似度时不将关键词转换为小写。
+  toLower = false
+    # 定义用于计算相似度的索引及其权重。
+    [[related.indices]]
+      name = "categories"
+      weight = 100
+    [[related.indices]]
+      name = "tags"
+      weight = 80
+    [[related.indices]]
+      name = "date"
+      weight = 10
+
+# 配置 Hugo 的图像处理功能的默认参数。
+[imaging]
+  # 图像裁剪时的锚点位置。
+  anchor = "Center"
+  # 图像处理时填充的背景颜色。
+  bgColor = "#ffffff"
+  # 图像处理时的提示。
+  hint = "photo"
+  # 生成图像的质量（1-100）。
+  quality = 85
+  # 调整图像大小时使用的重采样算法。
+  resampleFilter = "Lanczos"

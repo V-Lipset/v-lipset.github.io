@@ -1,0 +1,81 @@
+# --- Markdown 渲染器设置 ---
+
+# 指定默认的 Markdown 处理器。Hugo 支持多种处理器，"goldmark" 是默认且推荐的。
+defaultMarkdownHandler = "goldmark"
+
+# --- Goldmark 渲染器详细配置 ---
+# Goldmark 是 Hugo 内置的高性能 Markdown 渲染器。
+[goldmark]
+  # --- Goldmark 扩展功能 ---
+  [goldmark.extensions]
+    # 是否自动将看起来像 URL 的纯文本转换为可点击的链接。
+    # 设置为 false 表示只有明确使用 Markdown 链接语法 ([text](url)) 的才会成为链接。
+    linkify = false
+
+  # --- Goldmark 解析器配置 ---
+  # 解析器负责读取 Markdown 文本并将其转换为内部结构。
+  [goldmark.parser]
+    # 是否为每个标题（如 H1, H2）自动生成一个唯一的 ID（锚点）。
+    # 这对于目录跳转和直接链接到页面特定部分非常重要。
+    autoHeadingID = true
+    # 自动生成的标题 ID 的风格。
+    # "github" 风格会生成与 GitHub 兼容的、更易读的 ID（例如，将 "Hello World" 转换为 "hello-world"）。
+    autoHeadingIDType = "github"
+
+    # --- 属性扩展配置 ---
+    # 允许在 Markdown 中为元素添加额外的 HTML 属性，例如 class 或 id。
+    # 语法示例：## My Heading {#my-id .my-class}
+    [goldmark.parser.attribute]
+      # 是否为块级元素（如段落、标题）启用属性支持。
+      block = true
+      # 是否为标题元素启用属性支持。
+      title = true
+
+  # --- Goldmark 渲染器配置 ---
+  # 渲染器负责将解析后的内部结构转换为最终的 HTML。
+  [goldmark.renderer]
+    # 是否允许在 Markdown 文件中直接使用原始 HTML 代码。
+    # 设置为 true 表示允许，这提供了更大的灵活性，但也需要注意安全风险（例如，防止注入恶意脚本）。
+    unsafe = true
+
+# --- 代码高亮配置 ---
+# Hugo 内置了 Chroma 代码高亮器，这里是它的配置。
+[highlight]
+  # 是否为高亮的行号添加锚点链接。
+  anchorLineNos = false
+  # 是否对代码围栏（```）中的代码进行语法高亮。
+  codeFences = true
+  # 是否在未指定语言时尝试自动猜测代码的语言。
+  guessSyntax = false
+  # 指定要特别高亮的行号，例如 "1, 4-5"。
+  hl_Lines = ''
+  # 是否对行内代码（`code`）也进行语法高亮（通常不推荐）。
+  hl_inline = false
+  # 为每一行代码生成锚点链接的前缀。
+  lineAnchors = ''
+  # 代码行号的起始数字。
+  lineNoStart = 1
+  # 是否在代码块中显示行号。
+  lineNos = false
+  # 是否将行号和代码放在一个 HTML 表格中（为了更好的对齐和复制体验）。
+  lineNumbersInTable = false
+  # 是否禁用 Chroma 生成的 CSS 类名（如果为 true，则需要自己提供样式）。
+  noClasses = false
+  # 是否完全禁用代码高亮功能。
+  noHl = false
+  # 代码高亮的主题样式。'monokai' 是一个流行的高对比度深色主题。
+  style = 'monokai'
+  # 一个制表符（Tab）应该被渲染成多少个空格。
+  tabWidth = 2
+
+# --- 目录 (Table of Contents) 生成配置 ---
+[tableOfContents]
+  # 目录捕获到哪个标题级别结束。
+  # 3 表示目录将包含 H2 (##) 和 H3 (###) 标题。
+  endLevel = 5
+  # 是否使用有序列表 (1., 2., ...) 而不是无序列表 (•, •, ...)。
+  # false 表示使用无序列表。
+  ordered = false
+  # 目录从哪个标题级别开始捕获。
+  # 2 表示目录将从 H2 (##) 标题开始，忽略 H1 (#)。
+  startLevel = 2
