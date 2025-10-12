@@ -3,3 +3,8 @@
 .alert-note {
   font-size: 1.1rem;
 }
+
+div.expressive-code pre {
+  white-space: pre-wrap !important;
+  word-wrap: break-word;
+}

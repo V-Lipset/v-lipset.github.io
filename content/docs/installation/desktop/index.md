@@ -36,8 +36,12 @@ seo:
 {{< step >}}
 选择一个版本进行安装：
 
-- [远程版](https://raw.githubusercontent.com/V-Lipset/ao3-chinese/main/main.user.js)
-- [本地版](https://raw.githubusercontent.com/V-Lipset/ao3-chinese/main/local.user.js)
+- 主用
+  - [远程版](https://raw.githubusercontent.com/V-Lipset/ao3-chinese/main/main.user.js)
+  - [本地版](https://raw.githubusercontent.com/V-Lipset/ao3-chinese/main/local.user.js)
+- 备用
+  - [远程版](https://cdn.jsdelivr.net/gh/V-Lipset/ao3-chinese@main/main.user.js)
+  - [本地版](https://cdn.jsdelivr.net/gh/V-Lipset/ao3-chinese@main/local.user.js)
 
 ![步骤 4.1](4.1.png)
 {{< /step >}}

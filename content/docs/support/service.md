@@ -5,7 +5,7 @@ summary: ""
 date: 2025-10-01T12:00:00+02:00
 lastmod: 2025-10-01T12:00:00+02:00
 draft: false
-weight: 220
+weight: 230
 toc: true
 seo:
   title: "翻译服务介绍" # custom title (optional)
@@ -27,7 +27,7 @@ seo:
 
 ## 3. Cerebras
 
-**模型**：`Llama 4 Maverick`、`Qwen 3 235B`、`GPT-OSS 120B`
+**模型**：`Llama 4 Maverick`、`Llama 4 Scout`、`Qwen 3 235B`、`GPT-OSS 120B`
 
 **简介**：有每日免费额度、可翻译敏感内容
 
@@ -65,7 +65,7 @@ seo:
 
 ## 6. Groq AI
 
-**模型**：`Llama 4 Maverick`、`Kimi K2`、`DeepSeek 70B`、`GPT-OSS 120B`
+**模型**：`Llama 4 Maverick`、`Llama 4 Scout`、`Kimi K2`、`DeepSeek 70B`、`GPT-OSS 120B`
 
 **简介**：有每日免费额度、前 3 个模型（L/K/D）可翻译敏感内容
 
@@ -77,7 +77,7 @@ seo:
 
 ## 7. ModelScope
 
-**模型**：`Llama 4 Maverick`、`DeepSeek V3.1`、`GLM 4.5`、`Qwen3 235B`
+**模型**：`Llama 4 Maverick`、`DeepSeek V3.1`、`GLM 4.6`、`Qwen3 235B`
 
 **简介**：有每日免费额度、不可翻译敏感内容
 
@@ -95,7 +95,7 @@ seo:
 
 ## 9. Together AI
 
-**模型**：`Llama 4 Maverick`、`DeepSeek V3`、`Qwen3 235B`
+**模型**：`Llama 4 Maverick`、`DeepSeek V3`、`Kimi K2`、`Qwen3 235B`
 
 **简介**：付费、可翻译敏感内容
 
@@ -113,6 +113,6 @@ seo:
 
 ## 11. 自定义
 
-① 自定义翻译服务时，必须将接口地址域名添加到脚本管理器的 `域名白名单` 中。
+① 自定义翻译服务时，必须将接口地址域名手动添加至 AO3 汉化插件的 `域名白名单` 中才能正常使用。具体操作过程可参考文档：[添加域名白名单](https://v-lipset.github.io/docs/guides/whitelist/) 。
 
 ② 填写并保存 `接口地址`、`API Key`后，如果 `模型 ID` 为空，脚本会自动尝试获取当前服务的所有可用模型。

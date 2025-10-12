@@ -35,7 +35,7 @@ AO3 汉化插件：[https://github.com/V-Lipset/ao3-chinese](https://github.com/
 {{< step >}}
 进入所复刻仓库的术语表文件夹，创建或上传你的术语表文件。
 
-术语表编写指南：[https://github.com/V-Lipset/ao3-chinese/guide/guide.html](https://github.com/V-Lipset/ao3-chinese/guide/guide.html)
+术语表编写指南：[https://v-lipset.github.io/docs/guides/glossary/write](https://v-lipset.github.io/docs/guides/glossary/write)
 
 注意：遵循指南中的编写规则可节省大量后续编写时所花费的精力。
 
