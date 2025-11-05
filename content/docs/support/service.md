@@ -67,13 +67,13 @@ seo:
 
 **模型**：`Llama 4 Maverick`、`Llama 4 Scout`、`Kimi K2`、`DeepSeek 70B`、`GPT-OSS 120B`
 
-**简介**：有每日免费额度、前 3 个模型（L/K/D）可翻译敏感内容
+**简介**：有每日免费额度、前 4 个模型（L/K/D）可翻译敏感内容
 
 **API Key 获取地址**：[https://console.groq.com](https://console.groq.com)
 
 **免费额度查询文档**：[https://console.groq.com/docs/rate-limits](https://console.groq.com/docs/rate-limits)
 
-**备注**：每天可免费使用的 tokens 分别为 500k 、300k、100k、200k。
+**备注**：每天可免费使用的 tokens 分别为 500k 、500k 、300k、100k、200k。
 
 ## 7. ModelScope
 
@@ -113,6 +113,8 @@ seo:
 
 ## 11. 自定义
 
-① 自定义翻译服务时，必须将接口地址域名手动添加至 AO3 汉化插件的 `域名白名单` 中才能正常使用。具体操作过程可参考文档：[添加域名白名单](https://v-lipset.github.io/docs/guides/whitelist/) 。
+① 可自由添加兼容 OpenAI API 格式的 AI 服务。
 
-② 填写并保存 `接口地址`、`API Key`后，如果 `模型 ID` 为空，脚本会自动尝试获取当前服务的所有可用模型。
+② 自定义翻译服务时，必须将接口地址域名手动添加至 AO3 汉化插件的 `域名白名单` 中才能正常使用。具体操作过程可参考文档：[添加域名白名单](https://v-lipset.github.io/docs/guides/whitelist/) 。
+
+③ 填写并保存 `接口地址`、`API Key`后，如果 `模型 ID` 为空，脚本会自动尝试获取当前服务的所有可用模型。

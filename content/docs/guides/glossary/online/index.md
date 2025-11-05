@@ -48,3 +48,13 @@ seo:
 
 * 链接：[https://raw.githubusercontent.com/Senka-owl/ao3-chinese-senka/refs/heads/main/glossaries/PokemonAnime.txt](https://raw.githubusercontent.com/Senka-owl/ao3-chinese-senka/refs/heads/main/glossaries/PokemonAnime.txt)
 * 维护者：[Senka-owl](https://github.com/Senka-owl)
+
+## To Be Hero X
+
+* 链接：[https://raw.githubusercontent.com/x000315/ao3-chinese/refs/heads/main/glossaries/To%20Be%20Hero%20X.txt](https://raw.githubusercontent.com/x000315/ao3-chinese/refs/heads/main/glossaries/To%20Be%20Hero%20X.txt)
+* 维护者：[x000315](https://github.com/x000315)
+
+## Merlin
+
+* 链接：[https://raw.githubusercontent.com/Sylvia-starrr/ao3-chinese/refs/heads/main/glossaries/Merlin.txt](https://raw.githubusercontent.com/Sylvia-starrr/ao3-chinese/refs/heads/main/glossaries/Merlin.txt)
+* 维护者：[大魔法师梅林好日子在哪里](anselnya999@gmail.com)
