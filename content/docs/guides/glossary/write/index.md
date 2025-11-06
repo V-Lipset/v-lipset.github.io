@@ -58,7 +58,7 @@ seo:
 ### 2. 通用词条区
 
 * **用途**：用于定义**不区分大小写**的通用词汇或概念。
-* **规则**：脚本会匹配该词的所有大小写形式。例如，定义 `Hypercube` 会同时匹配 `Hypercube`，`hypercube`，`HyPerCube`，和 `HYPERCUBE`。
+* **规则**：脚本会匹配该词的所有大小写形式。例如，定义 `Hypercube` 会同时匹配 `Hypercube`、`hypercube`、`HyPerCube`、 `HYPERCUBE`……
 * **示例**：`Hypercube：异方晶`
 
 ### 3. 多词条关联定义

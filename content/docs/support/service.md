@@ -59,7 +59,7 @@ seo:
 
 **免费额度查询文档**：[https://ai.google.dev/gemini-api/docs/rate-limits](https://ai.google.dev/gemini-api/docs/rate-limits)
 
-**备注**：非必要情况下，不要使用 `Gemini 2.5 Pro` ，它也是大体量推理模型，并且由于调用量太大，时常会有模型过载的问题。
+**备注**：非必要情况下，不要使用 `Gemini 2.5 Pro` ，它是大体量推理模型，拥有过多思考过程，返回译文异常缓慢。并且由于调用量太大，时常会有模型过载的问题。
 
 **小技巧**：可准备多个谷歌账号，每个账号下创建不超过 5 个项目，每个项目下创建一个 API Key，将这些 API Key 填入选框中（Key 之间以逗号隔开），翻译时，脚本将自动进行轮询，从而提高每日免费额度。一个项目下，每天可调用 `Gemini 2.5 Pro` 100 次，`Gemini 2.5 Flash` 250 次，`Gemini 2.5 Flash-Lite` 1000 次。
 
@@ -113,8 +113,6 @@ seo:
 
 ## 11. 自定义
 
-① 可自由添加兼容 OpenAI API 格式的 AI 服务。
-
-② 自定义翻译服务时，必须将接口地址域名手动添加至 AO3 汉化插件的 `域名白名单` 中才能正常使用。具体操作过程可参考文档：[添加域名白名单](https://v-lipset.github.io/docs/guides/whitelist/) 。
-
-③ 填写并保存 `接口地址`、`API Key`后，如果 `模型 ID` 为空，脚本会自动尝试获取当前服务的所有可用模型。
+- 可自由添加兼容 OpenAI API 格式的 AI 服务。
+- 自定义翻译服务时，必须将接口地址域名手动添加至 AO3 汉化插件的 `域名白名单` 中才能正常使用。具体操作过程可参考文档：[添加域名白名单](https://v-lipset.github.io/docs/guides/whitelist/) 。
+- 填写并保存 `接口地址`、`API Key`后，如果 `模型 ID` 为空，脚本会自动尝试获取当前服务的所有可用模型。

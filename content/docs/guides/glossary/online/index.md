@@ -27,7 +27,7 @@ seo:
 ## Princess Principal
 
 * 链接：[https://raw.githubusercontent.com/LycorisWind/ao3-chinese/refs/heads/main/glossaries/Princess%20Principal.txt](https://raw.githubusercontent.com/LycorisWind/ao3-chinese/refs/heads/main/glossaries/Princess%20Principal.txt)
-* 维护者：[LycorisWind](https://github.com/LycorisWind)
+* 维护者：[Ly](https://github.com/LycorisWind)
 
 ## Twisted Wonderland
 
@@ -57,4 +57,4 @@ seo:
 ## Merlin
 
 * 链接：[https://raw.githubusercontent.com/Sylvia-starrr/ao3-chinese/refs/heads/main/glossaries/Merlin.txt](https://raw.githubusercontent.com/Sylvia-starrr/ao3-chinese/refs/heads/main/glossaries/Merlin.txt)
-* 维护者：[大魔法师梅林好日子在哪里](anselnya999@gmail.com)
+* 维护者：[大魔法师梅林好日子在哪里](mailto:anselnya999@gmail.com)

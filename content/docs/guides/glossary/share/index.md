@@ -17,7 +17,13 @@ seo:
 {{< steps >}}
 
 {{< step >}}
-访问 AO3 汉化插件的`Wiki`界面。
+登录 Github 。
+
+GitHub 网址：[https://github.com](https://github.com)
+{{< /step >}}
+
+{{< step >}}
+访问 AO3 汉化插件的 `Wiki` 界面。
 
 Wiki 网址：[https://github.com/V-Lipset/ao3-chinese/wiki/在线术语表](https://github.com/V-Lipset/ao3-chinese/wiki/%E5%9C%A8%E7%BA%BF%E6%9C%AF%E8%AF%AD%E8%A1%A8)
 
@@ -25,7 +31,7 @@ Wiki 网址：[https://github.com/V-Lipset/ao3-chinese/wiki/在线术语表](htt
 {{< /step >}}
 
 {{< step >}}
-点击`编辑`。
+点击 `编辑` 。
 
 {{< figure src="2.1.png" alt="步骤 2.1" >}}
 {{< /step >}}
@@ -47,7 +53,7 @@ Wiki 网址：[https://github.com/V-Lipset/ao3-chinese/wiki/在线术语表](htt
 {{< /step >}}
 
 {{< step >}}
-添加完成后，可以点击`预览`看一下呈现效果。
+添加完成后，可以点击 `预览` 看一下呈现效果。
 
 {{< figure src="4.1.png" alt="步骤 4.1" >}}
 
@@ -55,7 +61,7 @@ Wiki 网址：[https://github.com/V-Lipset/ao3-chinese/wiki/在线术语表](htt
 {{< /step >}}
 
 {{< step >}}
-确认无误后，就可以填写`提交信息`、`保存页面`了。
+确认无误后，就可以填写 `提交信息`、`保存页面` 了。
 
 {{< figure src="5.1.png" alt="步骤 5.1" >}}
 {{< /step >}}

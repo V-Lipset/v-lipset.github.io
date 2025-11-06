@@ -14,6 +14,9 @@ seo:
   noindex: false # false (default) or true
 ---
 
+> 添加的网址示例：`https://archiveofourown.org/*`
+{.alert-note}
+
 {{< steps >}}
 
 {{< step >}}
