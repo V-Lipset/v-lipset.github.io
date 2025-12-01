@@ -47,8 +47,8 @@ other = "正在加载搜索索引…"
 [search_no_recent]
 other = "最近没有搜索记录"
 
-[search_no_results]
-other = "未找到结果"
+# [search_no_results]
+# other = "未找到结果"
 
 [search_placeholder]
 other = ""
@@ -57,4 +57,4 @@ other = ""
 other = "搜索"
 
 [video_unsupported]
-other = "您的浏览器不支持内嵌视频，但别担心，您可以<a href=\"{{ .RelPermalink }}\">下载它</a>，然后用您喜欢的视频播放器观看！"
+other = "您的浏览器不支持内嵌视频，不过不用担心，您可以<a href=\"{{ .RelPermalink }}\">下载它</a>，然后用视频播放器进行观看！"
