@@ -1,5 +1,3 @@
-// Put your custom SCSS code here
-
 .alert-note {
   font-size: 1.1rem;
 }
@@ -12,4 +10,61 @@ div.expressive-code pre {
 .content a, article a, .markdown-body a {
   word-break: break-all;
   overflow-wrap: break-word;
+}
+
+@media (max-width: 991.98px) {
+  #offcanvasNavMain,
+  #offcanvasNavSection {
+    width: 50vw !important;
+  }
+
+  #offcanvasNavMain {
+    .offcanvas-body {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      padding-bottom: 2rem;
+    }
+
+    .navbar-nav {
+      flex-grow: 1 !important;
+      margin-bottom: 0;
+    }
+
+    #buttonColorMode,
+    #socialMenu {
+      margin-left: 0 !important;
+      margin-right: auto !important;
+      padding-left: 0;
+      width: auto;
+      flex-grow: 0;
+    }
+
+    #socialMenu .nav-link {
+        padding-left: 0;
+    }
+  }
+}
+
+.search-result:hover .card,
+.search-result.selected .card {
+  background-color: #f1f3f4 !important;
+  color: var(--bs-body-color) !important;
+  border-color: transparent !important;
+}
+
+.search-result:hover .card a,
+.search-result.selected .card a {
+  color: var(--bs-body-color) !important;
+}
+
+[data-bs-theme="dark"] .search-result:hover .card,
+[data-bs-theme="dark"] .search-result.selected .card {
+  background-color: #3c4043 !important;
+  color: var(--bs-body-color) !important;
+}
+
+[data-bs-theme="dark"] .search-result:hover .card a,
+[data-bs-theme="dark"] .search-result.selected .card a {
+  color: var(--bs-body-color) !important;
 }
