@@ -39,7 +39,7 @@ Wiki 网址：[https://github.com/V-Lipset/ao3-chinese/wiki/在线术语表](htt
 {{< step >}}
 在代码框中添加你的术语表信息。
 
-* `### Princess Principal`
+* `### BanG Dream`
   * `###` 表示这是一个三级标题。
 * `* 链接：[]()`
   * `*` 表示这是一个无序列表。

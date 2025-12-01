@@ -8,3 +8,8 @@ div.expressive-code pre {
   white-space: pre-wrap !important;
   word-wrap: break-word;
 }
+
+.content a, article a, .markdown-body a {
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
