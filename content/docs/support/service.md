@@ -93,13 +93,13 @@ seo:
 
 **备注**：所有模型共计 2000 次/天。需要进行阿里云账号绑定与授权才能正常使用。
 
-## 9. SiliconFlow
-
-**API Key 获取地址**：[https://cloud.siliconflow.cn](https://cloud.siliconflow.cn/)
-
-## 10. OpenAI
+## 9. OpenAI
 
 **API Key 获取地址**：[https://platform.openai.com](https://platform.openai.com)
+
+## 10. SiliconFlow
+
+**API Key 获取地址**：[https://cloud.siliconflow.cn](https://cloud.siliconflow.cn/)
 
 ## 11. Together AI
 
