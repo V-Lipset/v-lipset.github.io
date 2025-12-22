@@ -68,3 +68,8 @@ div.expressive-code pre {
 [data-bs-theme="dark"] .search-result.selected .card a {
   color: var(--bs-body-color) !important;
 }
+
+/* 隐藏 GLightbox 底部的描述栏 */
+.gslide-description {
+  display: none !important;
+}

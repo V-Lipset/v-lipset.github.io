@@ -68,3 +68,23 @@ seo:
 
 * 链接：[https://raw.githubusercontent.com/Kyra-Ly/ao3-chinese/refs/heads/main/glossaries/Be%20More%20Chill.txt](https://raw.githubusercontent.com/Kyra-Ly/ao3-chinese/refs/heads/main/glossaries/Be%20More%20Chill.txt)
 * 维护者：[S.Q.U.I.P](mailto:atasjane@gmail.com)
+
+## 汉尼拔
+
+* 链接：[https://raw.githubusercontent.com/tombling/ao3-chinese/refs/heads/main/glossaries/Hannibal.txt](https://raw.githubusercontent.com/tombling/ao3-chinese/refs/heads/main/glossaries/Hannibal.txt)
+* 维护者：[Winston](mailto:anselnya999@gmail.com)
+
+## Persona 5
+
+* 链接：[https://raw.githubusercontent.com/CyanSkyXD/ao3-chinese/refs/heads/main/glossaries/Persona%205.txt](https://raw.githubusercontent.com/CyanSkyXD/ao3-chinese/refs/heads/main/glossaries/Persona%205.txt)
+* 维护者：[CyanSkyXD](https://github.com/CyanSkyXD)
+
+## 火焰纹章风花雪月（女贝）
+
+* 链接：[https://raw.githubusercontent.com/Senka-owl/ao3-chinese-senka/refs/heads/main/glossaries/FE3h](https://raw.githubusercontent.com/Senka-owl/ao3-chinese-senka/refs/heads/main/glossaries/FE3h)
+* 维护者：[Senka-owl](https://github.com/Senka-owl)
+
+## Fullmetal Alchemist
+
+* 链接：[https://raw.githubusercontent.com/Senka-owl/ao3-chinese-senka/refs/heads/main/glossaries/ullmetal%20Alchemist.txt](https://raw.githubusercontent.com/Senka-owl/ao3-chinese-senka/refs/heads/main/glossaries/ullmetal%20Alchemist.txt)
+* 维护者：[Senka-owl](https://github.com/Senka-owl)

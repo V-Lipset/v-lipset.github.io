@@ -1,60 +1,60 @@
 [404_text]
-other = "您正在查找的页面不存在或已被迁移。"
+other = "The page you are looking for doesn't exist or has been moved."
 
 [404_title]
-other = "页面未找到 :("
+other = "Page not found :("
 
 [browse]
-other = "浏览"
+other = "Browse"
 
 [chapter_next]
-other = "下一篇"
+other = "Next"
 
 [chapter_previous]
-other = "上一篇"
+other = "Prev"
 
 [edit_page]
 other = "Edit this page on"
 
 [get_started]
-other = "开始使用"
+other = "Example Guide"
 
 [home]
-other = "主页"
+other = "Home"
 
 [in]
-other = "在"
+other = "in"
 
 [by]
-other = "由"
+other = "by"
 
 [last_updated]
-other = "最后更新于"
+other = "Last updated on"
 
 [minute]
-one = "分钟"
-other = "分钟"
+one = "minute"
+other = "minutes"
 
 [on_this_page]
-other = "目录"
+other = "On this page"
 
 [reading_time]
-other = "预计阅读时间"
+other = "Estimated reading time"
 
 [search_loading]
-other = "正在加载搜索索引…"
+other = "Loading search index…"
 
 [search_no_recent]
-other = "最近没有搜索记录"
+other = "No recent searches"
 
-# [search_no_results]
-# other = "未找到结果"
+[search_no_results]
+other = "No results"
 
 [search_placeholder]
-other = ""
+other = "Search"
 
 [search_title]
-other = "搜索"
+other = "Search"
 
 [video_unsupported]
-other = "您的浏览器不支持内嵌视频，不过不用担心，您可以<a href=\"{{ .RelPermalink }}\">下载它</a>，然后用视频播放器进行观看！"
+other = "Your browser doesn't support embedded videos, but don't worry, you can <a href=\"{{ .RelPermalink }}\">download it</a> and watch it with your favorite video player!"

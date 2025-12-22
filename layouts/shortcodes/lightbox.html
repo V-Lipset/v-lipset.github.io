@@ -1,0 +1,55 @@
+{{- $src := .Get "src" -}}
+{{- $link := .Get "link" -}}
+{{- $target := .Get "target" -}}
+{{- $rel := .Get "rel" -}}
+{{- $alt := .Get "alt" -}}
+{{- $title := .Get "title" -}}
+{{- $caption := .Get "caption" -}}
+{{- $class := .Get "class" -}}
+{{- $attr := .Get "attr" -}}
+{{- $attrlink := .Get "attrlink" -}}
+{{- $width := .Get "width" -}}
+{{- $height := .Get "height" -}}
+{{- $u := urls.Parse $src -}}
+{{- if not $u.IsAbs -}}
+  {{- $path := strings.TrimPrefix "/" $u.Path -}}
+  {{- with or ($.Page.Resources.Get $path) (resources.Get $path) -}}
+    {{- $src = .RelPermalink -}}
+  {{- end -}}
+{{- end -}}
+
+<figure{{ with $class }} class="{{ . }}"{{ end }}>
+    {{- if $link -}}
+        <a href="{{ $link }}"{{ with $target }} target="{{ . }}"{{ end }}{{ with $rel }} rel="{{ . }}"{{ end }}>
+            <img src="{{ $src }}"
+                 {{- if or $alt $caption }} alt="{{ with $alt }}{{ . }}{{ else }}{{ $caption }}{{ end }}"{{ end -}}
+                 {{- with $width }} width="{{ . }}"{{ end -}}
+                 {{- with $height }} height="{{ . }}"{{ end -}}
+                 loading="lazy"
+            />
+        </a>
+    {{- else -}}
+        <a href="{{ $src }}" class="glightbox" data-gallery="gallery" data-description="{{ $caption | default $alt }}">
+            <img src="{{ $src }}"
+                 {{- if or $alt $caption }} alt="{{ with $alt }}{{ . }}{{ else }}{{ $caption }}{{ end }}"{{ end -}}
+                 {{- with $width }} width="{{ . }}"{{ end -}}
+                 {{- with $height }} height="{{ . }}"{{ end -}}
+                 loading="lazy"
+            />
+        </a>
+    {{- end -}}
+
+    {{- if or (or $title $caption) $attr -}}
+        <figcaption>
+            {{- with $title }}<h4>{{ . }}</h4>{{ end -}}
+            {{- if or $caption $attr -}}
+                <p>
+                    {{- $caption | markdownify -}}
+                    {{- with $attrlink }}<a href="{{ . }}">{{ end -}}
+                    {{- $attr | markdownify -}}
+                    {{- if $attrlink }}</a>{{ end }}
+                </p>
+            {{- end -}}
+        </figcaption>
+    {{- end -}}
+</figure>

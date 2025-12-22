@@ -1,6 +1,6 @@
 ---
 # 页面的主标题，通常会作为 <h1> 显示在页面上。
-title: "AO3 汉化插件"
+title: "AO3 Translator"
 
 # 页面的简短描述，可以作为副标题或元数据使用。
 description: "一个简单的用户脚本，专注于提升 AO3 的阅读体验"
@@ -22,7 +22,7 @@ draft: false
 seo:
   # 自定义 SEO 标题。这个标题会显示在浏览器标签页和搜索引擎结果中。
   # 如果留空，通常会使用上面的主 title。
-  title: "AO3 汉化插件" # custom title (optional)
+  title: "AO3 Translator" # custom title (optional)
 
   # 自定义 SEO 描述。这个描述会用于 HTML 的 <meta name="description"> 标签，
   # 强烈推荐填写，因为它会显示在搜索引擎结果中。

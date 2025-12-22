@@ -29,37 +29,37 @@ seo:
 {{< step >}}
 点击`篡改猴`扩展程序，打开`管理面板`。
 
-{{< figure src="1.1.png" alt="步骤 1.1" >}}
+{{< lightbox src="1.1.png" alt="步骤 1.1" >}}
 {{< /step >}}
 
 {{< step >}}
-点击 AO3 汉化插件右侧的`钢笔图标`，进入`编辑`页面。
+点击 AO3 Translator 右侧的`钢笔图标`，进入`编辑`页面。
 
-{{< figure src="1.2.png" alt="步骤 1.2" >}}
+{{< lightbox src="1.2.png" alt="步骤 1.2" >}}
 {{< /step >}}
 
 {{< step >}}
 点击左上角的`设置`。
-{{< figure src="1.3.png" alt="步骤 1.3" >}}
+{{< lightbox src="1.3.png" alt="步骤 1.3" >}}
 
 {{< /step >}}
 
 {{< step >}}
 下滑找到`XHR 安全`→`用户域名白名单`，点击`添加`。
 
-{{< figure src="1.4.png" alt="步骤 1.4" >}}
+{{< lightbox src="1.4.png" alt="步骤 1.4" >}}
 {{< /step >}}
 
 {{< step >}}
 填入接口地址域名后，点击`确定`。
 
-{{< figure src="1.5.png" alt="步骤 1.5" >}}
+{{< lightbox src="1.5.png" alt="步骤 1.5" >}}
 {{< /step >}}
 
 {{< step >}}
 操作完成。请刷新 AO3 页面。
 
-{{< figure src="1.6.png" alt="步骤 1.6" >}}
+{{< lightbox src="1.6.png" alt="步骤 1.6" >}}
 {{< /step >}}
 
 {{< /steps >}}
@@ -75,31 +75,33 @@ seo:
 {{< step >}}
 点击`篡改猴`扩展程序，打开`管理面板`。
 
-{{< figure src="2.1.png" alt="步骤 2.1" >}}
+{{< lightbox src="2.1.png" alt="步骤 2.1" >}}
 {{< /step >}}
 
 {{< step >}}
-点击 AO3 汉化插件右侧的`钢笔图标`，进入`编辑`页面。
+点击 AO3 Translator 右侧的`钢笔图标`，进入`编辑`页面。
 
-{{< figure src="2.2.png" alt="步骤 2.2" >}}
+{{< lightbox src="2.2.png" alt="步骤 2.2" >}}
 {{< /step >}}
 
 {{< step >}}
-在脚本代码最上面的`==UserScript==`元数据区添加`@connect`代码行：`// @connect      api.example.com`。
+在脚本代码最上面的`==UserScript==`元数据区添加`@connect`代码行：
 
-{{< figure src="2.3.png" alt="步骤 2.3" >}}
+`// @connect      api.example.com`
+
+{{< lightbox src="2.3.png" alt="步骤 2.3" >}}
 {{< /step >}}
 
 {{< step >}}
 点击左上角的`文件`，`保存`刚刚做了修改的代码。
 
-{{< figure src="2.4.png" alt="步骤 2.4" >}}
+{{< lightbox src="2.4.png" alt="步骤 2.4" >}}
 {{< /step >}}
 
 {{< step >}}
 操作完成。请刷新 AO3 页面。
 
-{{< figure src="2.5.png" alt="步骤 2.5" >}}
+{{< lightbox src="2.5.png" alt="步骤 2.5" >}}
 {{< /step >}}
 
 {{< /steps >}}

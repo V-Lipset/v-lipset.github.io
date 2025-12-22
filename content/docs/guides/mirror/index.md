@@ -22,37 +22,37 @@ seo:
 {{< step >}}
 安装好插件后，点击 `篡改猴` 扩展程序的 `管理面板`。
 
-{{< figure src="1.png" alt="步骤 1" >}}
+{{< lightbox src="1.png" alt="步骤 1" >}}
 {{< /step >}}
 
 {{< step >}}
-找到 `AO3 汉化插件`，点击其右侧的 `钢笔图标`，进入 `编辑` 页面。
+找到 `AO3 Translator`，点击其右侧的 `钢笔图标`，进入 `编辑` 页面。
 
-{{< figure src="2.png" alt="步骤 2" >}}
+{{< lightbox src="2.png" alt="步骤 2" >}}
 {{< /step >}}
 
 {{< step >}}
 点击 `设置`。
 
-{{< figure src="3.png" alt="步骤 3" >}}
+{{< lightbox src="3.png" alt="步骤 3" >}}
 {{< /step >}}
 
 {{< step >}}
 下滑页面，找到 `包括/排除` → `用户匹配`，点击 `添加`。
 
-{{< figure src="4.png" alt="步骤 4" >}}
+{{< lightbox src="4.png" alt="步骤 4" >}}
 {{< /step >}}
 
 {{< step >}}
 填写使用的镜像站点的网址，并在后面加上 `/*` ，然后点击 `确定`。
 
-{{< figure src="5.png" alt="步骤 5" >}}
+{{< lightbox src="5.png" alt="步骤 5" >}}
 {{< /step >}}
 
 {{< step >}}
 操作完成，请刷新镜像站点页面。
 
-{{< figure src="6.png" alt="步骤 6" >}}
+{{< lightbox src="6.png" alt="步骤 6" >}}
 {{< /step >}}
 
 {{< /steps >}}

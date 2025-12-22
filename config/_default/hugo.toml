@@ -1,5 +1,5 @@
 # 网站的全局标题，会显示在浏览器标签页上。
-title = "ACS"
+title = "AT"
 
 # 网站部署后的最终根 URL，用于生成所有资源的绝对链接。
 baseurl = "https://v-lipset.github.io/"
@@ -23,7 +23,7 @@ enableGitInfo = false
 enableRobotsTXT = true
 
 # 网站的主要语言代码，用于 HTML 的 lang 属性。
-languageCode = "en-US"
+languageCode = "zh-CN"
 
 # RSS 订阅源中显示的文章数量上限。
 rssLimit = 10
@@ -33,10 +33,7 @@ summarylength = 50 # 70 (default)
 
 # --- 多语言配置 ---
 # 设置网站的默认内容语言。
-defaultContentLanguage = "en"
-
-# 禁用 Doks 主题中可能内置的德语和荷兰语支持。
-disableLanguages = ["de", "nl"]
+defaultContentLanguage = "zh"
 
 # 默认语言的 URL 不会包含语言子目录（例如 /page/ 而不是 /en/page/）。
 defaultContentLanguageInSubdir = false
@@ -75,11 +72,11 @@ copyRight = "Copyright © 2025 by Lipset. All rights reserved."
 # 配置 Hugo 内置的全局站点地图 (sitemap.xml)。
 [sitemap]
   # 告诉搜索引擎页面内容的建议更新频率。
-  changefreq = "monthly"
+  changefreq = "weekly"
   # 生成的站点地图文件名。
   filename = "sitemap.xml"
   # 页面在网站中的相对重要性（0.0 到 1.0）。
-  priority = 0.5
+  priority = 0.8
 
 # 配置 Hugo 的缓存。这里是针对 getJSON 函数的缓存设置，-1 表示永久缓存。
 [caches]
