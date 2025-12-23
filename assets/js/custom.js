@@ -3,7 +3,7 @@ import GLightbox from 'glightbox';
 document.addEventListener('DOMContentLoaded', () => {
   const lightbox = GLightbox({
     selector: '.glightbox',
-    touchNavigation: true,
+    touchNavigation: false,
     loop: true,
     autoplayVideos: true,
     zoomable: false,
