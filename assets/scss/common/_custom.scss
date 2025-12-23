@@ -61,20 +61,31 @@ div.expressive-code pre {
 [data-bs-theme="dark"] .search-result:hover .card,
 [data-bs-theme="dark"] .search-result.selected .card {
   background-color: #3c4043 !important;
-  color: var(--bs-body-color) !important;
+  color: #e9ecef !important;
+  border-color: transparent !important;
+}
+
+[data-bs-theme="dark"] .search-result:hover .card *,
+[data-bs-theme="dark"] .search-result.selected .card * {
+  color: #e9ecef !important;
 }
 
 [data-bs-theme="dark"] .search-result:hover .card a,
 [data-bs-theme="dark"] .search-result.selected .card a {
-  color: var(--bs-body-color) !important;
+  color: #b3c7ff !important;
 }
 
-/* 隐藏 GLightbox 底部的描述栏 */
+[data-bs-theme="dark"] .search-result:hover .card mark,
+[data-bs-theme="dark"] .search-result.selected .card mark {
+  color: #ffffff !important;
+  background-color: rgba(13, 110, 253, 0.5);
+}
+
 .gslide-description {
   display: none !important;
 }
 
 .gslide-image img {
-  user-select: none; /* 禁止选中图片，提升拖拽体验 */
-  -webkit-user-drag: none; /* 禁止浏览器默认的图片拖拽行为 */
+  user-select: none;
+  -webkit-user-drag: none;
 }
