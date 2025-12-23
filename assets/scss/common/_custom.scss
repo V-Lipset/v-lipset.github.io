@@ -73,3 +73,8 @@ div.expressive-code pre {
 .gslide-description {
   display: none !important;
 }
+
+.gslide-image img {
+  user-select: none; /* 禁止选中图片，提升拖拽体验 */
+  -webkit-user-drag: none; /* 禁止浏览器默认的图片拖拽行为 */
+}

@@ -3,8 +3,24 @@ import Index from 'flexsearch';
 (function () {
   'use strict';
 
+  const searchInput = document.querySelector('.search-text');
+  if (!searchInput) return;
+
+  const searchResults = document.querySelector('.search-results');
+  const noResultsMsg = document.querySelector('.search-no-results');
+  const noRecentMsg = document.querySelector('.search-no-recent');
+  const queryNoResults = document.querySelector('.query-no-results');
+  const template = document.querySelector('template');
+
+  if (!searchResults || !noResultsMsg || !noRecentMsg || !queryNoResults || !template) {
+    return;
+  }
+
+  const templateContent = template.content;
+
   const index = new Index.Document({
     tokenize: 'full',
+    cache: true,
     document: {
       id: 'id',
       index: [
@@ -33,32 +49,40 @@ import Index from 'flexsearch';
     }
   });
 
+  function debounce(func, wait) {
+    let timeout;
+    return function(...args) {
+      const context = this;
+      clearTimeout(timeout);
+      timeout = setTimeout(() => func.apply(context, args), wait);
+    };
+  }
+
   function showResults(items) {
-    const template = document.querySelector('template').content;
     const fragment = document.createDocumentFragment();
-    const results = document.querySelector('.search-results');
-    results.textContent = '';
+    searchResults.textContent = '';
 
     const itemsLength = items.length;
+    const query = searchInput.value;
 
-    if ((itemsLength === 0) && (document.querySelector('.search-text').value === '')) {
-      document.querySelector('.search-no-results').classList.add('d-none');
-      document.querySelector('.search-no-recent').classList.remove('d-none');
-    } else if ((itemsLength === 0) && (document.querySelector('.search-text').value !== '')) {
-      document.querySelector('.search-no-recent').classList.add('d-none');
-      const queryNoResults = document.querySelector('.query-no-results');
-      queryNoResults.innerText = document.querySelector('.search-text').value;
-      document.querySelector('.search-no-results').classList.remove('d-none');
+    if (itemsLength === 0 && query === '') {
+      noResultsMsg.classList.add('d-none');
+      noRecentMsg.classList.remove('d-none');
+    } else if (itemsLength === 0 && query !== '') {
+      noRecentMsg.classList.add('d-none');
+      queryNoResults.innerText = query;
+      noResultsMsg.classList.remove('d-none');
     } else {
-      document.querySelector('.search-no-recent').classList.add('d-none');
-      document.querySelector('.search-no-results').classList.add('d-none');
+      noRecentMsg.classList.add('d-none');
+      noResultsMsg.classList.add('d-none');
     }
 
     items.forEach(item => {
-      const result = template.cloneNode(true);
+      const result = templateContent.cloneNode(true);
       const a = result.querySelector('a');
       const time = result.querySelector('time');
       const content = result.querySelector('.content');
+
       a.innerHTML = item.title;
       a.href = item.permalink;
       time.innerText = item.date;
@@ -66,11 +90,11 @@ import Index from 'flexsearch';
       fragment.appendChild(result);
     });
 
-    results.appendChild(fragment);
+    searchResults.appendChild(fragment);
   }
 
   function doSearch() {
-    const query = document.querySelector('.search-text').value.trim();
+    const query = searchInput.value.trim();
     const limit = {{ .searchLimit }};
 
     const results = index.search({
@@ -97,24 +121,17 @@ import Index from 'flexsearch';
       const isBlogA = a.permalink.includes('/blog/');
       const isBlogB = b.permalink.includes('/blog/');
 
-      if (isBlogA && !isBlogB) {
-        return 1;
-      }
-      if (!isBlogA && isBlogB) {
-        return -1;
+      if (isBlogA !== isBlogB) {
+        return isBlogA ? 1 : -1;
       }
 
       const titleA = a.title.toLowerCase();
       const titleB = b.title.toLowerCase();
-
       const aHasTitle = titleA.includes(q);
       const bHasTitle = titleB.includes(q);
 
-      if (aHasTitle && !bHasTitle) {
-        return -1;
-      }
-      if (!aHasTitle && bHasTitle) {
-        return 1;
+      if (aHasTitle !== bHasTitle) {
+        return aHasTitle ? -1 : 1;
       }
 
       return 0;
@@ -125,20 +142,30 @@ import Index from 'flexsearch';
 
   function enableUI() {
     const searchform = document.querySelector('.search-form');
+    if (!searchform) return;
+
     searchform.addEventListener('submit', function (e) {
       e.preventDefault();
       doSearch();
     });
-    searchform.addEventListener('input', function () {
+
+    searchform.addEventListener('input', debounce(function () {
       doSearch();
-    });
-    document.querySelector('.search-loading').classList.add('d-none');
-    document.querySelector('.search-input').classList.remove('d-none');
-    document.querySelector('.search-text').focus();
+    }, 300));
+
+    const loadingSpinner = document.querySelector('.search-loading');
+    const searchInputEl = document.querySelector('.search-input');
+
+    if (loadingSpinner) loadingSpinner.classList.add('d-none');
+    if (searchInputEl) searchInputEl.classList.remove('d-none');
+
+    searchInput.focus();
   }
 
   function buildIndex() {
-    document.querySelector('.search-loading').classList.remove('d-none');
+    const loadingSpinner = document.querySelector('.search-loading');
+    if (loadingSpinner) loadingSpinner.classList.remove('d-none');
+
     fetch("{{ site.LanguagePrefix }}/search-index.json")
       .then(function (response) {
         return response.json();

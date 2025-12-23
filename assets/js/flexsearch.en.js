@@ -3,6 +3,21 @@ import Index from 'flexsearch';
 (function () {
   'use strict';
 
+  const searchInput = document.querySelector('.search-text');
+  if (!searchInput) return;
+
+  const searchResults = document.querySelector('.search-results');
+  const noResultsMsg = document.querySelector('.search-no-results');
+  const noRecentMsg = document.querySelector('.search-no-recent');
+  const queryNoResults = document.querySelector('.query-no-results');
+  const template = document.querySelector('template');
+
+  if (!searchResults || !noResultsMsg || !noRecentMsg || !queryNoResults || !template) {
+    return;
+  }
+
+  const templateContent = template.content;
+
   const index = new Index.Document({
     tokenize: 'forward',
     cache: true,
@@ -33,13 +48,6 @@ import Index from 'flexsearch';
       store: ['title','summary','date','permalink']
     }
   });
-
-  const searchInput = document.querySelector('.search-text');
-  const searchResults = document.querySelector('.search-results');
-  const noResultsMsg = document.querySelector('.search-no-results');
-  const noRecentMsg = document.querySelector('.search-no-recent');
-  const queryNoResults = document.querySelector('.query-no-results');
-  const templateContent = document.querySelector('template').content;
 
   function debounce(func, wait) {
     let timeout;
@@ -134,6 +142,7 @@ import Index from 'flexsearch';
 
   function enableUI() {
     const searchform = document.querySelector('.search-form');
+    if (!searchform) return;
 
     searchform.addEventListener('submit', function (e) {
       e.preventDefault();
@@ -144,13 +153,19 @@ import Index from 'flexsearch';
       doSearch();
     }, 300));
 
-    document.querySelector('.search-loading').classList.add('d-none');
-    document.querySelector('.search-input').classList.remove('d-none');
+    const loadingSpinner = document.querySelector('.search-loading');
+    const searchInputEl = document.querySelector('.search-input');
+
+    if (loadingSpinner) loadingSpinner.classList.add('d-none');
+    if (searchInputEl) searchInputEl.classList.remove('d-none');
+
     searchInput.focus();
   }
 
   function buildIndex() {
-    document.querySelector('.search-loading').classList.remove('d-none');
+    const loadingSpinner = document.querySelector('.search-loading');
+    if (loadingSpinner) loadingSpinner.classList.remove('d-none');
+
     fetch("{{ site.LanguagePrefix }}/search-index.json")
       .then(function (response) {
         return response.json();
