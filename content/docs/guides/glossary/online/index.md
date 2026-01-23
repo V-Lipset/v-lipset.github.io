@@ -88,3 +88,13 @@ seo:
 
 * 链接：[https://raw.githubusercontent.com/Senka-owl/ao3-chinese-senka/refs/heads/main/glossaries/ullmetal%20Alchemist.txt](https://raw.githubusercontent.com/Senka-owl/ao3-chinese-senka/refs/heads/main/glossaries/ullmetal%20Alchemist.txt)
 * 维护者：[Senka-owl](https://github.com/Senka-owl)
+
+## The Locked Tomb
+
+* 链接：[https://raw.githubusercontent.com/zhufree/ao3-chinese/refs/heads/main/glossaries/TheLockedTomb.txt](https://raw.githubusercontent.com/zhufree/ao3-chinese/refs/heads/main/glossaries/TheLockedTomb.txt)
+* 维护者：[FemslashAmateur](https://github.com/zhufree)
+
+## 전지적 독자 시점 - 싱숑|Omniscient Reader's Viewpoint 全知读者视角
+
+* 链接：[https://raw.githubusercontent.com/Anselnya/ao3-chinese/refs/heads/main/glossaries/ORV.txt](https://raw.githubusercontent.com/Anselnya/ao3-chinese/refs/heads/main/glossaries/ORV.txt)
+* 维护者：[■■■](https://github.com/Anselnya)

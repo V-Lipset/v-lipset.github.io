@@ -14,30 +14,34 @@ seo:
   noindex: false # false (default) or true
 ---
 
-> **注意**：如果访问某个网址或使用某项翻译服务时，出现异常错误，请科学上网（或者切换节点）并开启全局代理。
+> **注意**\
+> 1.网络环境：如果访问某个网址或使用某项翻译服务时，出现异常错误，请科学上网（或者切换节点）并开启全局代理。\
+> 2.信息时效性：各翻译服务的模型列表、资费标准及免费额度可能会随时变动。本页面信息仅供参考，请务必以各服务商官网的最新数据为准。
 {.alert-note}
 
-## 1. 微软翻译
-
-**备注**：需要直连或者全局代理。
-
-## 2. 谷歌翻译
+## 1. 谷歌翻译
 
 **备注**：需要科学上网。
+
+## 2. 微软翻译
+
+**备注**：需要直连或者全局代理。
 
 ## 3. Anthropic
 
 **API Key 获取地址**：[https://console.anthropic.com](https://console.anthropic.com)
 
+**价格查询**：[https://platform.claude.com/docs/zh-CN/about-claude/pricing](https://platform.claude.com/docs/zh-CN/about-claude/pricing)
+
 ## 4. Cerebras
 
-**模型**：`GLM 4.6`、`Qwen 3 235B`、`GPT-OSS 120B`
+**模型**：`Qwen 3 235B`、`GPT-OSS 120B`、`GLM 4.7`
 
 **简介**：有每日免费额度、可翻译敏感内容
 
 **API Key 获取地址**：[https://cloud.cerebras.ai](https://cloud.cerebras.ai)
 
-**免费额度查询文档**：Cerebras 控制台
+**免费额度查询文档**：[https://inference-docs.cerebras.ai/support/rate-limits](https://inference-docs.cerebras.ai/support/rate-limits)
 
 **备注**：每个模型一百万 tokens / 天。
 
@@ -67,9 +71,11 @@ seo:
 
 **小技巧**：可准备多个谷歌账号，每个账号下创建不超过 5 个项目，每个项目下创建一个 API Key，将这些 API Key 填入选框中（Key 之间以逗号隔开），翻译时，插件将自动进行轮询，从而提高每日免费额度。一个项目下，每天可调用 `Gemini 2.5 Pro` 100 次，`Gemini 2.5 Flash` 250 次，`Gemini 2.5 Flash-Lite` 1000 次。
 
+**更新**：大幅削减了额度，新申请的 API Key 几乎不再可以免费使用。
+
 ## 7. Groq AI
 
-**模型**：`Llama 4 Maverick`、`Llama 4 Scout`、`Kimi K2`、`GPT-OSS 120B`
+**模型**：`Kimi K2`、`Llama 4 Maverick`、`Llama 4 Scout`、`GPT-OSS 120B`
 
 **简介**：有每日免费额度、前 3 个模型可翻译敏感内容
 
@@ -81,25 +87,29 @@ seo:
 
 ## 8. ModelScope
 
-**模型**：`DeepSeek V3.2`、`DeepSeek V3.2-Exp`、`DeepSeek V3.1`、`DeepSeek R1`、`Qwen3 235B`、`MiniMax M1-80k`、`MiMo V2-Flash`、`Mistral Large`
+**模型**：`DeepSeek V3.2`、`GLM 4.7`、`Qwen3 235B`、`MiniMax M1-80k`
 
 **简介**：有每日免费额度、不可翻译敏感内容
 
 **API Key 获取地址**：[https://www.modelscope.cn/my/myaccesstoken](https://www.modelscope.cn/my/myaccesstoken)
 
-**免费额度查询文档**：[https://www.modelscope.cn/docs/model-service/API-Inference/intro](https://www.modelscope.cn/docs/model-service/API-Inference/intro)
+**免费额度查询文档**：[https://www.modelscope.cn/docs/API-Inference%E4%BD%BF%E7%94%A8%E9%99%90%E5%88%B6](https://www.modelscope.cn/docs/API-Inference%E4%BD%BF%E7%94%A8%E9%99%90%E5%88%B6)
 
 **阿里云账号绑定与授权教程**：[https://www.modelscope.cn/docs/accounts/aliyun-binding-and-authorization](https://www.modelscope.cn/docs/accounts/aliyun-binding-and-authorization)
 
-**备注**：所有模型共计 2000 次/天，需要进行阿里云账号绑定与授权才能正常使用。
+**备注**：需要进行阿里云账号绑定与授权才能正常使用。所有模型共计 2000 次/天，部分大体量模型有单独的速率限制，详情见其免费额度查询文档。
 
 ## 9. OpenAI
 
 **API Key 获取地址**：[https://platform.openai.com](https://platform.openai.com)
 
+**价格查询**：[https://platform.openai.com/docs/pricing](https://platform.openai.com/docs/pricing)
+
 ## 10. SiliconFlow
 
 **API Key 获取地址**：[https://cloud.siliconflow.cn](https://cloud.siliconflow.cn)
+
+**价格查询**：[https://siliconflow.cn/pricing](https://siliconflow.cn/pricing)
 
 ## 11. Together AI
 
@@ -113,7 +123,7 @@ seo:
 
 ## 12. Zhipu AI
 
-**模型**：`GLM-4.5-Flash`、`GLM-4-Flash-250414`
+**模型**：`GLM-4-Flash-250414`、`GLM-4.5-Flash`、`GLM-4.7-Flash`
 
 **简介**：免费、不可翻译敏感内容
 
