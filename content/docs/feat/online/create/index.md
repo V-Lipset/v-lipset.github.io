@@ -5,7 +5,7 @@ summary: ""
 date: 2025-10-01T12:00:00+02:00
 lastmod: 2025-10-01T12:00:00+02:00
 draft: false
-weight: 360
+weight: 460
 toc: true
 seo:
   title: "创建在线术语表" # custom title (optional)

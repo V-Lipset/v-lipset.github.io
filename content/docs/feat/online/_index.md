@@ -1,14 +1,14 @@
 ---
-title: "术语表相关"
+title: "在线术语表"
 description: ""
 summary: ""
 date: 2025-10-01T12:00:00+02:00
 lastmod: 2025-10-01T12:00:00+02:00
 draft: false
-weight: 330
+weight: 430
 toc: true
 seo:
-  title: "术语表相关" # custom title (optional)
+  title: "在线术语表" # custom title (optional)
   description: "" # custom description (recommended)
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true

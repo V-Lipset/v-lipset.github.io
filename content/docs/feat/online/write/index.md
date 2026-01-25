@@ -5,7 +5,7 @@ summary: ""
 date: 2025-10-01T12:00:00+02:00
 lastmod: 2025-10-01T00:00:00+02:00
 draft: false
-weight: 350
+weight: 450
 toc: true
 seo:
   title: "术语表编写指南" # custom title (optional)

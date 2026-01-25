@@ -5,7 +5,7 @@ summary: ""
 date: 2025-10-01T12:00:00+02:00
 lastmod: 2025-10-01T12:00:00+02:00
 draft: false
-weight: 370
+weight: 470
 toc: true
 seo:
   title: "分享你的术语表" # custom title (optional)

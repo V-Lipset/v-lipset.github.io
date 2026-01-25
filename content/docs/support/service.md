@@ -83,7 +83,7 @@ seo:
 
 **免费额度查询文档**：[https://console.groq.com/docs/rate-limits](https://console.groq.com/docs/rate-limits)
 
-**备注**：每天可免费使用的 tokens 分别为 500k 、500k 、300k、200k。
+**备注**：每天可免费使用的 tokens 分别为 300k、500k 、500k 、200k。
 
 ## 8. ModelScope
 
