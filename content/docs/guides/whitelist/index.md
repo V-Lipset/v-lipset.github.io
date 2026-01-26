@@ -85,9 +85,12 @@ seo:
 {{< /step >}}
 
 {{< step >}}
-在脚本代码最上面的`==UserScript==`元数据区添加`@connect`代码行：
+在脚本代码最上面的 `==UserScript==` 元数据区添加 `@connect` 代码行。\
+**注**：将下方代码中的域名 `api.example.com` 替换为你所使用的 API 接口域名。
 
-`// @connect      api.example.com`
+``` javascript
+// @connect      api.example.com
+```
 
 {{< lightbox src="2.3.png" alt="步骤 2.3" >}}
 {{< /step >}}
