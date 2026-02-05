@@ -14,6 +14,11 @@ seo:
   noindex: false # false (default) or true
 ---
 
+> 感谢各位老师的付出！\
+> 此页面可能更新不及时，实时在线术语库：\
+> [https://github.com/V-Lipset/ao3-chinese/wiki/在线术语库](https://github.com/V-Lipset/ao3-chinese/wiki/%E5%9C%A8%E7%BA%BF%E6%9C%AF%E8%AF%AD%E8%A1%A8)
+{.alert-note}
+
 ## BanG Dream
 
 * 链接：[https://raw.githubusercontent.com/V-Lipset/ao3-chinese/main/glossaries/BanG%20Dream.txt](https://raw.githubusercontent.com/V-Lipset/ao3-chinese/main/glossaries/BanG%20Dream.txt)
@@ -94,7 +99,22 @@ seo:
 * 链接：[https://raw.githubusercontent.com/zhufree/ao3-chinese/refs/heads/main/glossaries/TheLockedTomb.txt](https://raw.githubusercontent.com/zhufree/ao3-chinese/refs/heads/main/glossaries/TheLockedTomb.txt)
 * 维护者：[FemslashAmateur](https://github.com/zhufree)
 
-## 전지적 독자 시점 - 싱숑|Omniscient Reader's Viewpoint 全知读者视角
+## 전지적 독자 시점 - 싱숑 | Omniscient Reader's Viewpoint 全知读者视角
 
 * 链接：[https://raw.githubusercontent.com/Anselnya/ao3-chinese/refs/heads/main/glossaries/ORV.txt](https://raw.githubusercontent.com/Anselnya/ao3-chinese/refs/heads/main/glossaries/ORV.txt)
 * 维护者：[■■■](https://github.com/Anselnya)
+
+## Transformers | 变形金刚
+
+* 链接：[https://raw.githubusercontent.com/Valyria336/ao3-chinese/refs/heads/patch-1/glossaries/Transformer.txt](https://raw.githubusercontent.com/Valyria336/ao3-chinese/refs/heads/patch-1/glossaries/Transformer.txt)
+* 维护者：[拉葛莎](https://github.com/Valyria336)
+
+## Attack on Titan | 进击的巨人
+
+* 链接：[https://raw.githubusercontent.com/Valyria336/ao3-chinese/refs/heads/patch-2/glossaries/%E8%BF%9B%E5%87%BB%E7%9A%84%E5%B7%A8%E4%BA%BA.txt](https://raw.githubusercontent.com/Valyria336/ao3-chinese/refs/heads/patch-2/glossaries/%E8%BF%9B%E5%87%BB%E7%9A%84%E5%B7%A8%E4%BA%BA.txt)
+* 维护者：[拉葛莎](https://github.com/Valyria336)
+
+## Person of Interest | 疑犯追踪
+
+* 链接：[https://raw.githubusercontent.com/dyszd208526/ao3-chinese/refs/heads/main/glossaries/Person%20of%20Interest.txt](https://raw.githubusercontent.com/dyszd208526/ao3-chinese/refs/heads/main/glossaries/Person%20of%20Interest.txt)
+* 维护者：[yaojy0205@163.com](mailto:yaojy0205@163.com)
