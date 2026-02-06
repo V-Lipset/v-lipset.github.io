@@ -111,7 +111,7 @@ seo:
 
 ## Attack on Titan | 进击的巨人
 
-* 链接：[https://raw.githubusercontent.com/Valyria336/ao3-chinese/refs/heads/patch-2/glossaries/%E8%BF%9B%E5%87%BB%E7%9A%84%E5%B7%A8%E4%BA%BA.txt](https://raw.githubusercontent.com/Valyria336/ao3-chinese/refs/heads/patch-2/glossaries/%E8%BF%9B%E5%87%BB%E7%9A%84%E5%B7%A8%E4%BA%BA.txt)
+* 链接：[https://raw.githubusercontent.com/Valyria336/ao3-chinese/refs/heads/patch-1/glossaries/%E8%BF%9B%E5%87%BB%E7%9A%84%E5%B7%A8%E4%BA%BA.txt](https://raw.githubusercontent.com/Valyria336/ao3-chinese/refs/heads/patch-1/glossaries/%E8%BF%9B%E5%87%BB%E7%9A%84%E5%B7%A8%E4%BA%BA.txt)
 * 维护者：[拉葛莎](https://github.com/Valyria336)
 
 ## Person of Interest | 疑犯追踪
