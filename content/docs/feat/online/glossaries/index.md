@@ -16,7 +16,7 @@ seo:
 
 > 感谢各位老师的付出！\
 > 此页面可能更新不及时，实时在线术语库：\
-> [https://github.com/V-Lipset/ao3-chinese/wiki/在线术语库](https://github.com/V-Lipset/ao3-chinese/wiki/%E5%9C%A8%E7%BA%BF%E6%9C%AF%E8%AF%AD%E8%A1%A8)
+> [https://github.com/V-Lipset/ao3-chinese/wiki/在线术语库](https://github.com/V-Lipset/ao3-chinese/wiki/在线术语库)
 {.alert-note}
 
 ## BanG Dream
