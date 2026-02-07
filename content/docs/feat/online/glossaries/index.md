@@ -104,6 +104,11 @@ seo:
 * 链接：[https://raw.githubusercontent.com/Anselnya/ao3-chinese/refs/heads/main/glossaries/ORV.txt](https://raw.githubusercontent.com/Anselnya/ao3-chinese/refs/heads/main/glossaries/ORV.txt)
 * 维护者：[■■■](https://github.com/Anselnya)
 
+## 백작가의 망나니가 되었다 | Lout of Count's Family 成为伯爵家的废物
+
+* 链接：[https://raw.githubusercontent.com/aki-zukila/ao3-chinese/refs/heads/main/glossaries/Lcf.txt](https://raw.githubusercontent.com/aki-zukila/ao3-chinese/refs/heads/main/glossaries/Lcf.txt)
+* 维护者：[aki-zukila](mailto:qzgd2219@163.com)
+
 ## Transformers | 变形金刚
 
 * 链接：[https://raw.githubusercontent.com/Valyria336/ao3-chinese/refs/heads/patch-1/glossaries/Transformer.txt](https://raw.githubusercontent.com/Valyria336/ao3-chinese/refs/heads/patch-1/glossaries/Transformer.txt)

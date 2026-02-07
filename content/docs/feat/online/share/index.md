@@ -25,7 +25,7 @@ GitHub 网址：[https://github.com](https://github.com)
 {{< step >}}
 访问 AO3 汉化插件的 `Wiki` 界面。
 
-Wiki 网址：[https://github.com/V-Lipset/ao3-chinese/wiki/在线术语表](https://github.com/V-Lipset/ao3-chinese/wiki/%E5%9C%A8%E7%BA%BF%E6%9C%AF%E8%AF%AD%E8%A1%A8)
+Wiki 网址：[https://github.com/V-Lipset/ao3-chinese/wiki/在线术语库](https://github.com/V-Lipset/ao3-chinese/wiki/在线术语库)
 
 {{< lightbox src="1.1.png" alt="步骤 1.1" >}}
 {{< /step >}}
