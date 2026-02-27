@@ -123,3 +123,13 @@ seo:
 
 * 链接：[https://raw.githubusercontent.com/dyszd208526/ao3-chinese/refs/heads/main/glossaries/Person%20of%20Interest.txt](https://raw.githubusercontent.com/dyszd208526/ao3-chinese/refs/heads/main/glossaries/Person%20of%20Interest.txt)
 * 维护者：[yaojy0205@163.com](mailto:yaojy0205@163.com)
+
+## Cosmic Princess Kaguya | 超时空辉夜姬
+
+* 链接：[https://raw.githubusercontent.com/V-Lipset/ao3-chinese/main/glossaries/Cosmic%20Princess%20Kaguya.txt](https://raw.githubusercontent.com/V-Lipset/ao3-chinese/main/glossaries/Cosmic%20Princess%20Kaguya.txt)
+* 维护者：[V-Lipset](https://github.com/V-Lipset)
+
+## Vampire Knight | 吸血鬼骑士
+
+* 链接：[https://raw.githubusercontent.com/shlylhy/ao3-chinese/refs/heads/main/glossaries/Vampire%20Knight%20%E5%90%B8%E8%A1%80%E9%AC%BC%E9%AA%91%E5%A3%AB.txt](https://raw.githubusercontent.com/shlylhy/ao3-chinese/refs/heads/main/glossaries/Vampire%20Knight%20%E5%90%B8%E8%A1%80%E9%AC%BC%E9%AA%91%E5%A3%AB.txt)
+* 维护者：[Shlylhy](https://github.com/shlylhy)
