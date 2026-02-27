@@ -80,7 +80,7 @@ copyRight = "Copyright © 2025 by Lipset. All rights reserved."
 
 # 配置 Hugo 的缓存。这里是针对 getJSON 函数的缓存设置，-1 表示永久缓存。
 [caches]
-  [caches.getjson]
+  [caches.getresource]
     dir = ":cacheDir/:project"
     maxAge = -1 # "30m"
 
